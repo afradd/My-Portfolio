@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body{
@@ -224,5 +224,50 @@ nav{
 .section-title{
     text-align: center;
     margin-bottom: 3rem;
+    color: #64ffda;
+}
+
+
+.about {
+    background-color: #1e1e1e;
+}
+
+.about-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    color: #64ffda;
+    margin-top: 2rem;
+}
+
+.personal-info {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info-label {
+    font-weight: 600;
     color: #64ffda;
 }
